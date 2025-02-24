@@ -127,7 +127,7 @@ To more efficiently evaluate the model's "intelligence," we have constructed Ope
 
 
 ### License
-The use of Baichuan-Audio-Base/Baichuan-Audio model weights must comply with the [License](https://huggingface.co//baichuan-inc/Baichuan-Audio/blob/main/LICENSE) and [Apache 2.0](https://github.com/baichuan-inc/Baichuan-Audio/blob/main/LICENSE)
+The use of Baichuan-Audio-Base/Baichuan-Audio model weights must comply with the [Apache 2.0](https://github.com/baichuan-inc/Baichuan-Audio/blob/main/LICENSE)
 
 ### Citation
 If you find our model/code/paper helpful, please give us a ⭐ and cite 📝, thank you!
