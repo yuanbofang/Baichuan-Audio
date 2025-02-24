@@ -129,14 +129,4 @@ To more efficiently evaluate the model's "intelligence," we have constructed Ope
 ### License
 The use of Baichuan-Audio-Base/Baichuan-Audio model weights must comply with the [Apache 2.0](https://github.com/baichuan-inc/Baichuan-Audio/blob/main/LICENSE)
 
-### Citation
-If you find our model/code/paper helpful, please give us a ⭐ and cite 📝, thank you!
 
-```bib
-@article{li2025baichuan,
-  title={Baichuan-Omni-1.5 Technical Report},
-  author={Li, Yadong and Liu, Jun and Zhang, Tao and Chen, Song and Li, Tianpeng and Li, Zehuan and Liu, Lijun and Ming, Lingfeng and Dong, Guosheng and Pan, Da and others},
-  journal={arXiv preprint arXiv:2501.15368},
-  year={2025}
-}
-```
