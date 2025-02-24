@@ -131,14 +131,4 @@ python s2s_gradio_demo_cosy_multiturn.py
 ### 协议
 Baichuan-Audio-Base/Baichuan-Audio 模型的权重的使用则需要遵循 [Apache 2.0](https://github.com/baichuan-inc/Baichuan-Audio/blob/main/LICENSE)
 
-### 引用
-如果您觉得我们模型/代码/论文有帮助，请给我们 ⭐ 和 引用 📝，感谢！
 
-```bib
-@article{li2025baichuan,
-  title={Baichuan-Omni-1.5 Technical Report},
-  author={Li, Yadong and Liu, Jun and Zhang, Tao and Chen, Song and Li, Tianpeng and Li, Zehuan and Liu, Lijun and Ming, Lingfeng and Dong, Guosheng and Pan, Da and others},
-  journal={arXiv preprint arXiv:2501.15368},
-  year={2025}
-}
-```
