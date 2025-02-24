@@ -75,7 +75,6 @@ The interleaved data collection process is divided into crawling and synthesis t
 - #### Two stage training strategy
 The conflict between speech and text modalities may interfere with the pre-trained text knowledge representation in pre-trained LLMs, leading to degradation in model intelligence performance. To mitigate this, we adopt a two-stage training strategy. In the first stage, the LLM parameters remain fixed, and only the audio embedding layer and audio head parameters are updated. In the second stage, all parameters except the LM embedding layer and LM head parameters are trained.
 
-### Model Performance
 
 ### Local WebUI Demo
 
