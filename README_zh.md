@@ -76,11 +76,11 @@ OpenAudioBench <a href="https://huggingface.co/datasets/baichuan-inc/openAudioBe
 语音模态与文本模态之间的冲突可能会干扰预训练LLM中预训练的文本知识表征，从而导致模型智商性能退化。为此，我们采用了一种两阶段训练策略来缓解模态之间的训练冲突。在第一阶段，LLM 的参数保持不变，只更新 audio embedding layer 和 audio head 的参数。在第二阶段，除LM embedding layer 和 LM head 的参数外，所有参数都参与训练。
 
 
-### 本地 WebUI Demo
+### Local WebUI Demo
 
-#### 准备工作
+#### Preparation
 
-##### 创建虚拟环境
+##### Create a Virtual Environment
 ```bash
 conda create -n baichuan_omni python==3.12
 conda activate baichuan_omni
@@ -89,7 +89,7 @@ pip install -r requirements.txt
 pip install accelerate flash_attn==2.6.3 speechbrain==1.0.0 deepspeed==0.14.4
 apt install llvm ffmpeg
 ```
-##### 下载模型并修改模型路径
+##### Download the Model and Modify the Model Path
 修改 web_demo/constants.py 中的 MODEL_PATH 为本地模型路径
 
 #### ASR and TTS Demo
@@ -106,21 +106,31 @@ cd web_demo
 python s2s_gradio_demo_cosy_multiturn.py
 ```
 
+### Cases
 
-### 开源评测集
+
+* 介绍下北京
+
+<audio controls>
+  <source src="./assets/audio_out.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+### Open-Source Evaluation Set
 
 **OpenAudioBench**
 
 为了更高效的评估模型的“智商”问题，我们构建了 OpenAudioBench，共包含5个音频端到端理解子评测集，分别是4个公开评测集（llama question、WEB QA、TriviaQA、AlpacaEval），以及百川团队自建的语音逻辑推理评测集，共2701条数据，能够综合反映模型“智商”水平。
 
-### 模型性能
+### Model performance
 
 <div align="center">
 <img src="./assets/result.png" , width=90%>
 </div>
 
 
-### 致谢
+### Acknowledgments
 
 - 自动语音识别（ASR, Automatic Speech Recognition）模型：【Whisper】(https://github.com/openai/whisper)
 - 大语言模型（LLM）：【Qwen2.5 7B】(https://arxiv.org/abs/2412.15115)
@@ -128,7 +138,7 @@ python s2s_gradio_demo_cosy_multiturn.py
 - 使用CosyVoice 2.0中的HiFi-GAN vocoder：(https://funaudiollm.github.io/cosyvoice2/)
 
 
-### 协议
+### License
 Baichuan-Audio-Base/Baichuan-Audio 模型的权重的使用则需要遵循 [Apache 2.0](https://github.com/baichuan-inc/Baichuan-Audio/blob/main/LICENSE)
 
 
