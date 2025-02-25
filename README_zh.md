@@ -111,7 +111,7 @@ python s2s_gradio_demo_cosy_multiturn.py
 
 * 介绍下北京
 
-https://raw.githubusercontent.com/baichuan-inc/Baichuan-Audio/refs/heads/main/assets/audio_out.wav
+https://github.com/user-attachments/assets/54dd31bf-32b7-4259-adc1-9f6160b3c15f
 
 
 ### Open-Source Evaluation Set
