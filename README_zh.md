@@ -113,7 +113,6 @@ python s2s_gradio_demo_cosy_multiturn.py
 
 <audio controls>
   <source src="./assets/audio_out.wav" type="audio/mpeg">
-  Your browser does not support the audio element.
 </audio>
 
 
