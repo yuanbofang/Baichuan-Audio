@@ -40,7 +40,7 @@ OpenAudioBench <a href="https://huggingface.co/datasets/baichuan-inc/openAudioBe
 </div>
 <br>
 
-**Baichuan-Auido** 主要由 Baichuan-Audio Tokenizer、Audio LLM 和Flow-matching based Audio Decoder 三部分组成。首先语音通过Baichuan-Audio Tokenizer转换为离散音频 token。然后，Audio LLM 以交错方式生成对齐的文本和音频 token，并通过特殊 token 实现文本和音频之间的无缝模态切换。音频 token 由独立的 audio head 处理，并用基于流匹配的音频解码器重建高质量的梅尔频谱图，最后通过声码器将其转换为音频波形。
+**Baichuan-Audio** 主要由 Baichuan-Audio Tokenizer、Audio LLM 和Flow-matching based Audio Decoder 三部分组成。首先语音通过Baichuan-Audio Tokenizer转换为离散音频 token。然后，Audio LLM 以交错方式生成对齐的文本和音频 token，并通过特殊 token 实现文本和音频之间的无缝模态切换。音频 token 由独立的 audio head 处理，并用基于流匹配的音频解码器重建高质量的梅尔频谱图，最后通过声码器将其转换为音频波形。
 
 - Baichuan-Audio-Tokenizer 采用 12.5hz 帧率设计。其使用 Whisper Large Encoder 从 Mel 谱中提取高级音频特征，然后使用 8 层 RVQ 来最大限度地减少量化过程中的信息损失。为了同时捕获捕获语义和声学信息，我们分别通过 Mel 谱重构和 Pre-trained LLM 进行声学和语义监督。
 <div align="center">
