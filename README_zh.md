@@ -8,7 +8,7 @@
   [English](./README.md)</strong>
   
   <p align="center">
-  Baichuan-Audio <a href="https://huggingface.co/baichuan-inc/Baichuan-Audio-Instruct">🤗</a> | Baichuan-Audio-Base <a href="https://huggingface.co/baichuan-inc/Baichuan-Audio-Base">🤗</a>  | 技术报告 <a href="https://github.com/baichuan-inc/Baichuan-Audio/blob/main/Baichuan-Audio.pdf">📖</a> 
+  Baichuan-Audio <a href="https://huggingface.co/baichuan-inc/Baichuan-Audio-Instruct">🤗</a> | Baichuan-Audio-Base <a href="https://huggingface.co/baichuan-inc/Baichuan-Audio-Base">🤗</a>  | 技术报告 <a href="https://arxiv.org/abs/2502.17239">📖</a> 
 </p>
 </p>
 <p align="center">
