@@ -22,7 +22,7 @@ OpenAudioBench <a href="https://huggingface.co/datasets/baichuan-inc/openAudioBe
 
 ## Baichuan-Audio
 
-**Baichuan-Auido** is an open-source end-to-end speech interaction model, seamlessly integrating audio understanding and generation capabilities, supporting high-quality, controllable real-time bilingual (Chinese-English) dialogue.
+**Baichuan-Audio** is an open-source end-to-end speech interaction model, seamlessly integrating audio understanding and generation capabilities, supporting high-quality, controllable real-time bilingual (Chinese-English) dialogue.
 
 - **Baichuan-Audio-Base**: To promote the development of speech models, we have open-sourced an end-to-end speech foundation model trained with high-quality, extensive data. This model has not undergone SFT instruction fine-tuning, offering strong plasticity.
 
