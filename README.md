@@ -40,7 +40,7 @@ OpenAudioBench <a href="https://huggingface.co/datasets/baichuan-inc/openAudioBe
 </div>
 <br>
 
-**Baichuan-Auido** mainly consists of Baichuan-Audio Tokenizer, Audio LLM, and Flow-matching based Audio Decoder. First, speech is converted into discrete audio tokens by the Baichuan-Audio Tokenizer. Then, Audio LLM generates aligned text and audio tokens in an interleaved manner, achieving seamless modality switching between text and audio through special tokens. Audio tokens are processed by an independent audio head and reconstructed into high-quality Mel spectrograms using a flow-matching based audio decoder, which are then converted into audio waveforms via a vocoder.
+**Baichuan-Audio** mainly consists of Baichuan-Audio Tokenizer, Audio LLM, and Flow-matching based Audio Decoder. First, speech is converted into discrete audio tokens by the Baichuan-Audio Tokenizer. Then, Audio LLM generates aligned text and audio tokens in an interleaved manner, achieving seamless modality switching between text and audio through special tokens. Audio tokens are processed by an independent audio head and reconstructed into high-quality Mel spectrograms using a flow-matching based audio decoder, which are then converted into audio waveforms via a vocoder.
 
 - Baichuan-Audio-Tokenizer uses a 12.5hz frame rate design. It employs Whisper Large Encoder to extract high-level audio features from Mel spectrograms, then uses 8-layer RVQ to minimize information loss during quantization. To capture both semantic and acoustic information, we use Mel spectrogram reconstruction and Pre-trained LLM for acoustic and semantic supervision, respectively.
 <div align="center">
