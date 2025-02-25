@@ -22,7 +22,7 @@ OpenAudioBench <a href="https://huggingface.co/datasets/baichuan-inc/openAudioBe
 
 ## Baichuan-Audio
 
-**Baichuan-Auido** 是Baichuan最新的端到端训练的语音交互大模型，无缝集成了音频理解和生成功能，支持高质量可控的中英双语实时对话。
+**Baichuan-Audio** 是Baichuan最新的端到端训练的语音交互大模型，无缝集成了音频理解和生成功能，支持高质量可控的中英双语实时对话。
 
 - **Baichuan-Audio-Base**: 为促进语音大模型发展，我们开源了使用高质量海量数据训练的端到端语音基座模型。该模型未经SFT指令微调，可塑性强。
 
