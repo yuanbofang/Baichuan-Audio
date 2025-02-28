@@ -109,7 +109,7 @@ python s2s_gradio_demo_cosy_multiturn.py
 
 * 介绍下北京
 
-https://github.com/user-attachments/assets/54dd31bf-32b7-4259-adc1-9f6160b3c15f
+[out_audio]https://github.com/yuanbofang/Baichuan-Audio/blob/main/assets/audio_out.wav
 
 ### Open-Source Evaluation Set
 
