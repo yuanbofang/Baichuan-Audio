@@ -107,10 +107,12 @@ python s2s_gradio_demo_cosy_multiturn.py
 
 ### Cases
 
-* 介绍下北京
+Below is an example of audio input and output:
 
-[out_audio](https://raw.githubusercontent.com/yuanbofang/Baichuan-Audio/refs/heads/main/assets/audio_out.wav)
-<audio controls src="https://github.com/user-attachments/assets/54dd31bf-32b7-4259-adc1-9f6160b3c15f"></audio>
+| **Input Type** | **Input Content**   | **Output Type** | **Output Content**                                                                                   |
+|----------------|---------------------|-----------------|------------------------------------------------------------------------------------------------------|
+| Audio          | "Introduce Beijing" | Audio           | [Audio Output](https://raw.githubusercontent.com/yuanbofang/Baichuan-Audio/refs/heads/main/assets/audio_out.wav) |
+
 
 ### Open-Source Evaluation Set
 
